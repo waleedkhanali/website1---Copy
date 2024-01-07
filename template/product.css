@@ -1,0 +1,227 @@
+@font-face {
+    font-family: newfont;
+    src: url(fonts/fonts.woff2);
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: orangered;
+    margin-bottom: 10px;
+    font-family: newfont;
+}
+ul li{
+    float: left;
+    padding: 12px 14px;
+    list-style: none;
+    margin-top: 1%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 14px;
+}
+a:hover{
+    background-color: white;
+    color: orangered;
+}
+.heading{
+    float: left;
+    color: white;
+    font-family: newfont;
+    font-weight: 500;
+    padding: 18px 14px;
+    width: 40%;
+}
+.nav-btn{
+    display: none;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .img{
+        width: 80%;
+        margin: 10%;
+    }
+    .img:hover{
+        border: 2px solid orangered;
+    }
+    .img2{
+        width: 100%;
+    }
+    .discription{
+        font-family: newfont;
+        font-weight: 500;
+    }
+    .price{
+        font-family: newfont;
+        font-weight: 500;
+        color: orangered;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+    .discount{
+        font-family: newfont;
+        font-weight: 500;
+        color: orangered;
+        float: right;
+        margin-right: 10%;
+    }
+    .locationa{
+        color: grey;
+        font-family: newfont;
+    }
+    .catogories{
+        color: grey;
+        font-family: newfont;
+    }
+    .locationa:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .brand{
+        font-family: newfont;
+        color: orangered;
+        margin-left: 10px;
+    }
+    .brand1{
+        font-family: newfont;
+    }
+    .shopicon{
+        font-size: x-large;
+        color: orangered;
+    }
+    .verified{
+        color: grey;
+        font-size: smaller;
+        font-family: newfont;
+    }
+    .shoptitle{
+        color: orangered;
+        font-family: newfont;
+        font-size: large;
+    }
+    .visitstore{
+        font-size: medium;
+        display: block;
+        font-family: newfont;
+        text-decoration: underline;
+        color: orangered;
+        cursor: pointer;
+    }
+    .visitstore:hover{
+        background-color: transparent;
+        color: orangered;
+    }
+    .span{
+        font-family: newfont;
+        }
+     .svg{
+            width: 20px;
+            height: 20px;
+      }
+    .div5{
+            padding: 12px 14px;
+            margin-top: 10px;
+    }
+    .img4{
+        width: 20px;
+        height: 20px;
+    }
+    .div6{
+        font-family: newfont;
+    }
+    .price1{
+        margin-left: 50px;
+    }
+    .delivery2{
+        font-size: medium;
+        margin-top: 0px;
+    }
+    .date{
+        color: grey;
+        font-size: small;
+        display: block;
+    }
+    .div6{
+        padding: 12px 14px;
+        margin-top: 10px;
+    }
+    .return{
+        color: orangered;
+    }
+    .return1{
+        display: block;
+    }
+    .returndiv{
+        margin-top: 10px;
+    }
+    .cart{
+        padding: 12px 14px;
+        background-color: #F48603;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .buy{
+        padding: 12px 14px;
+        background-color: #0185BA;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .stock{
+        font-family: newfont;
+        color: grey;
+    }
+    .stock1{
+        font-family: newfont;
+        color: orangered;
+
+    }
+    .quantity{
+      
+        font-family: newfont;
+        color: grey;
+    }
+    .btn{
+        border: none;
+        color: grey;
+        padding: 12px 14px;
+    }
+    .divdiscription{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        
+    }
+    .heading1{
+        color: #1976D2;
+        font-family: newfont;
+        font-weight: 500;
+        font-size: larger;
+    }
+    .discription2{
+        font-family: newfont;
+        font-weight: 500;
+        font-size: medium;
+    }
+    .main1{
+        width: 90%;
+        margin-left: 6%;
+    }

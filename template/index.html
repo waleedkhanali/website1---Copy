@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- for filling effect -->
+    <div class="scroll">
+        <div class="scroll1" id="scroll1"></div>
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar">
+        <h1 class="heading">ELECTRICMART</h1>
+        <div class="mobile">
+        <ul>
+            <li><a href="">HOME</a></li>
+        </ul>
+        <ul>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+        <ul>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <ul>
+            <li><a href="">PORFOLIO</a></li>
+        </ul>
+        <ul>
+            <li><a href="">SIGN UP</a></li>
+        </ul>
+        <ul>
+            <li><a href="">LOGIN</a></li>
+        </ul>
+    </div>
+        <button class="nav-btn" id="nav-btn">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+        </button>
+    </nav>
+    <!-- navbar end -->
+    <!-- filter item start  -->
+    <div class="search">
+        <button class="filter-btn">
+            <i class="fa-solid fa-filter filtericon"></i><span>Filter</span>
+        </button>
+        <div class="filter-item">
+            <span class="filter-items">
+            <input type="checkbox"><span> PRICE</span><br>
+        </span>
+        <span class="filter-items">
+            <input type="checkbox"><span> COLOR</span><br>
+        </span>
+        <span class="filter-items">
+            <input type="checkbox"><span> BRAND</span><br>
+        </span>
+        <span class="filter-items">
+            <input type="checkbox"><span> COMPANY</span><br>
+        </span>
+        <span class="filter-items">
+            <input type="checkbox"><span> REVIEWS</span><br>
+        </span>
+        <span class="filter-items">
+            <input type="checkbox"><span> QUALITY</span><br>
+            </span>
+            <span class="filter-items">
+                <button class="btn">DONE</button>
+                </span> 
+        </div>
+        <!-- filter item end -->
+        <!-- search div start -->
+        <div class="search1">
+            <center>
+                <input type="text" placeholder="Clothes" class="input">
+                <span><i class="fa-solid fa-magnifying-glass input-search"></i></span>
+            </center>
+            
+        </div>
+        <!-- search div end -->
+        <button class="cart"><i class="fa-solid fa-cart-shopping"></i><span class="span-cart">CART</span></button>
+    </div>
+        <div class="catogory">
+            <span class="catogories" onclick="cetogary(this)">Fashion</span>
+            <span class="catogories" onclick="cetogary(this)">Health & Beauty</span>
+            <span class="catogories" onclick="cetogary(this)">Electronics</span>
+            <span class="catogories" onclick="cetogary(this)">Smart Watches</span>
+            <span class="catogories" onclick="cetogary(this)">Toys & Games</span>
+            <span class="catogories" onclick="cetogary(this)">Home & Lifestyle</span>
+            <span class="catogories" onclick="cetogary(this)">New Year Sale</span>
+        </div>
+        <div class="images">
+            <div class="top">
+            <div class="mobile1">
+                <img src="https://media.cybermart.pk/BannerAssets/1703239519_banner.png" alt="" class="img1" id="img1">
+                <span class="span-skip">
+                    <button id="skip" class="skip">5</button>
+                    <button class="skip1" onclick="mobile1()">skip</button>
+                </span>
+            </div>
+            <!-- slider div start -->
+            <div class="slider slider1" id="slider">
+                <img src="https://media.cybermart.pk/BannerAssets/1700217535_banner.png" alt="" class="img">
+                <img src="https://media.cybermart.pk/BannerAssets/1700217649_banner.png" alt="" class="img">
+                <img src="https://media.cybermart.pk/BannerAssets/1701168410_banner.png" alt="" class="img">
+                <img src="https://media.cybermart.pk/BannerAssets/1703655974_banner.jpeg" alt="" class="img">
+                <img src="https://media.cybermart.pk/BannerAssets/1700461506_banner.png" alt="" class="img">
+            </div>
+            <!-- slider div end -->
+        <!-- banner div start -->
+        <div class="rightbanner">
+            <img src="https://media.cybermart.pk/BannerAssets/1699427188_banner.png" alt="" class="img2 img_1">
+            <img src="https://media.cybermart.pk/BannerAssets/1699594930_banner.png" alt="" class="img2 img_3">
+            <img src="https://media.cybermart.pk/BannerAssets/1699594950_banner.png" alt="" class="img2 img_2">
+        </div>
+           
+        </div>
+            <!-- banner div end -->
+        <!-- deals start -->
+        <br>
+        <div class="deals">
+            <img src="images/1.jpeg" alt="" class="img3">
+            <div class="items">
+                <center>
+            <h2 class="deals1 dealz">Today Deals</h2>
+            <p class="p">Time remaiming</p>
+            <span id="hours">10</span>
+            <span id="minutes">35</span>
+            <span id="seconds">60</span>
+            <br>
+            <button class="btn1">View All</button>
+            </center>
+            </div>
+           
+        </div>
+        <!-- deals div end -->
+        <div class="imgdiv">
+            <center>
+                <h1 class="sale">OUR SALE</h1>
+            </center>
+        <img src="images/2.png" alt="" class="img4">
+        <img src="images/3.png" alt="" class="img4">
+    </div>
+</div>
+<!-- products div start -->
+<div class="products" id="productdiv">
+
+</div>
+    <img src="images/4.svg" alt="" class="img5">
+    <h1 class="deals1 dealsza">Subscribe to our newsletter
+        for the latest updates.</h1>
+        <input type="text" placeholder="Enter your email here" class="inpt" id="inpt">
+        <button class="subscribe-btn">Subscribe</button>
+        <span class="email" id="email">Please type a valid email address</span>
+        <div class="footer">
+            <div class="parent">
+                <div class="logodiv"> 
+                     <img src="images/logo.png" alt="" class="logo1">
+                    <p class="paragraph">CyberMart is a thriving online e-commerce website. We extend top-curated 
+                        Fashion, Electronics & Household products around the globe. CyberMart was
+                         established in the United States of America and has since
+                          expanded its horizon around the world.
+                        </p>
+                    </div>
+                <div class="div22">
+                    <h2 class="footer-heading">Useful Links</h2>
+                <a href="" class="footer-nav">FAQ</a>
+                <a href="" class="footer-nav">About Us</a>
+                <a href="" class="footer-nav">Contact Us</a>
+                <a href="" class="footer-nav">Become a Seller</a>
+                </div>
+                <div class="div33">
+                    <h2 class="footer-heading">Policy</h2>
+                <a href="" class="footer-nav">Privacy Policy</a>
+                <a href="" class="footer-nav">Return Policy</a>
+                <a href="" class="footer-nav">Non Return Policy</a>
+                <a href="" class="footer-nav">Terms and Conditions</a> </div>
+                <div class="div44"> <h2 class="footer-heading">Get In Touch</h2>
+                    <a href="" class="footer-nav">+923491803189</a>
+                    <a href="" class="footer-nav">habibking541@gmail.com</a>
+                    <i class="fa-brands fa-facebook footer-icons" style="margin-left: 10px;"></i>
+                    <i class="fa-brands fa-instagram footer-icons"></i>
+                    <i class="fa-brands fa-linkedin footer-icons"></i>
+                    <i class="fa-brands fa-twitter footer-icons"></i>
+                    <i class="fa-brands fa-youtube footer-icons"></i>
+                    </div>
+                </div>
+                <center>
+                    <h2 class="footer-heading1">Thanks for visiting our website</h2>
+                </center>
+           
+
+        </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
